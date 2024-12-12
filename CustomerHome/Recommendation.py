@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import FunctionTransformer
 
-data=pd.read_csv('/Users/nithinabraham/Downloads/Diet-Recommendation-System-main-3/recipes.csv')
+data=pd.read_csv('/Users/nithinabraham/Downloads/main project/Dietary System copy 2/recipes.csv')
 
 
 stats.probplot(data.Calories.to_numpy(), dist="norm", plot=pylab)

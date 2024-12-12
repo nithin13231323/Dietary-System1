@@ -18,7 +18,7 @@ from tensorflow.keras.layers import Dense, LeakyReLU, Dropout  # Layers for the 
 from tensorflow.keras.optimizers import Adam  # Optimizer for training the model
 
 # Load the dataset from the specified CSV file
-data = pd.read_csv('/Users/nithinabraham/Downloads/Diet-Recommendation-System-main-3/recipes.csv')
+data = pd.read_csv('/Users/nithinabraham/Downloads/main project/Dietary System copy 2/recipes.csv')
 
 # Display the first few rows of the dataset to understand its structure
 data.head()

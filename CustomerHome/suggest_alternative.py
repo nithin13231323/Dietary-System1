@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 
 # StandardScaler, NearestNeighbors, Pipeline, FunctionTransformer
 
-data=pd.read_csv('/Users/nithinabraham/Downloads/Diet-Recommendation-System-main-3/recipes.csv')
+data=pd.read_csv('/Users/nithinabraham/Downloads/main project/Dietary System copy 2/recipes.csv')
 
 
 dataset=data.copy()

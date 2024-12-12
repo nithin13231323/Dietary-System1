@@ -315,14 +315,14 @@ from urllib.parse import unquote
 
 
 # Load the dataset
-recipes_df = pd.read_csv('/Users/nithinabraham/Downloads/Diet-Recommendation-System-main-3/recipes.csv')
+recipes_df = pd.read_csv('/Users/nithinabraham/Downloads/main project/Dietary System copy 2/recipes.csv')
 print(recipes_df.columns)
 print(recipes_df.head())
 
 
 # Load the dataset globally
 try:
-    recipes_df = pd.read_csv('/Users/nithinabraham/Downloads/Diet-Recommendation-System-main-3/recipes.csv')
+    recipes_df = pd.read_csv('/Users/nithinabraham/Downloads/main project/Dietary System copy 2/recipes.csv')
 except FileNotFoundError:
     raise Exception("The recipes.csv file was not found. Check the path.")
 
